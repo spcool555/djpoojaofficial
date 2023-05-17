@@ -1,0 +1,20 @@
+body{
+    background-color: #333333 !important;
+    margin: 0;
+        padding: 0;
+    
+}
+.section-header {
+
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 57px;
+/* border
+-top: 1px solid #ff004f; */
+}
+*{
+font-family: 'Poppins', sans-serif;
+}

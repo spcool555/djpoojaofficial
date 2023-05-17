@@ -1,0 +1,80 @@
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+#footer .footer-top .footer-links ul li {
+    border-bottom: 1px solid #dc3545;
+    padding: 10px 0;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #eee !important;
+}
+a.no-underline {
+    text-decoration: none;
+}
+i{
+    size: 12px;
+}
+
+/* Add color to social icon links */
+.social-links a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    color: #333;
+    /* Default color */
+    transition: all 0.3s ease-in-out;
+}
+
+#facebook {
+    color: #3b5998;
+    /* Facebook color */
+}
+
+#twitter {
+    color: #1da1f2;
+    /* Twitter color */
+}
+
+#instagram {
+    color: #e4405f;
+    /* Instagram color */
+}
+
+#youtube {
+    color: #ff0000;
+    /* YouTube color */
+}
+
+#gmail {
+    color: #d44638;
+    /* Gmail color */
+}
+
+/* Add animation on hover */
+.social-links a:hover {
+    transform: scale(1.2);
+    /* Scale up on hover */
+    opacity: 0.8;
+    /* Reduce opacity on hover */
+}
